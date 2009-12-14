@@ -1,4 +1,4 @@
-=== iCaughtSanta ( Falling Snow ) ===
+=== iCaughtSanta ( Christmas / Falling Snow ) ===
 
 Version: 1.8
 Stable tag: 1.8
@@ -17,12 +17,12 @@ Donate link: http://www.catchacharacter.com/
 
 ZipId: ics-snow
 FolderId: ics-snow
-Plugin Name: iCaughtSanta ( Falling Snow )
+Plugin Name: iCaughtSanta ( Christmas / Falling Snow )
 Plugin URI: http://www.icaughtsanta.com/ics-snow-plugin/
 Description: Adds a beautiful falling snow effect to any WordPress powered site. Charm your visitors with this wonderful winter scenery.
 Tags: icaughtsanta, catchacharacter, snow, christmas, santa, santa claus, christmas, falling snow, snow effect, wordpress snow
 
-Adds a beautiful falling snow effect to any WordPress powered site. Thanks to [Scott Schiller](http://www.schillmania.com/projects/snowstorm/). Charm your visitors with this wonderful winter scenery. You can also earn holiday cash with this plugin by promoting iCaughtSanta.com.
+Adds a beautiful falling snow effect to any WordPress powered site for Christmas. Thanks to [Scott Schiller](http://www.schillmania.com/projects/snowstorm/). Charm your visitors with this wonderful winter scenery. You can also earn holiday cash with this plugin by promoting iCaughtSanta.com.
 
 == Installation ==
 
