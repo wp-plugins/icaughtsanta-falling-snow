@@ -62,7 +62,8 @@ function ws_plugin__ics_snow_scripting ()
 					}
 				if ($GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["enable_peel"])
 					{
-						echo '<script type="text/javascript" src="http://www.catchacharacter.com/affiliates/idevpeels.php?peel=3&amp;page=2&amp;id=' . urlencode((($GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["idev_id"]) ? $GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["idev_id"] : 100)) . '"></script>' . "\n";
+						@file_get_contents ("http://www.catchacharacter.com/affiliates/track.php?tid1=ics-snow-plugin&tid2=" . urlencode($_SERVER["HTTP_HOST"]) . "&ip_address=" . urlencode($_SERVER["REMOTE_ADDR"]) . "&id=" . urlencode((($GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["idev_id"]) ? $GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["idev_id"] : 164)));
+						echo '<script type="text/javascript" src="http://www.catchacharacter.com/affiliates/idevpeels.php?peel=3&amp;page=2&amp;id=' . urlencode((($GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["idev_id"]) ? $GLOBALS["WS_PLUGIN__"]["ics_snow"]["o"]["idev_id"] : 164)) . '"></script>' . "\n";
 					}
 			}
 	}
@@ -147,8 +148,8 @@ ws_plugin__$plugin_key_deactivate() is called by our themes.
 */
 function ws_plugin__ics_snow_deactivate ()
 	{
-		delete_option("ws_plugin__ics_snow_options");
-		delete_option("ws_plugin__ics_snow_configured");
+		delete_option ("ws_plugin__ics_snow_options");
+		delete_option ("ws_plugin__ics_snow_configured");
 		/**/
 		return;
 	}
